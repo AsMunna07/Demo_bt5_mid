@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- css links -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="bootstrap-icons.css">
+  </head>
+  <body>
+
+  <!-- Button trigger modal -->
+<button type="button" class="btn btn-success my-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-20" id="exampleModalLabel">Lorem, ipsum dolor sit amet.</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body fs-10">
+      <p>Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Ea quos veniam maxime est explicabo beatae tempore possimus officia inventore eligendi?</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="header">
+  <div class="row">
+    <div class="col-md-2 col-sm-3 col-12">
+     <div class="box">1.1</div>
+    </div>
+     <div class="col-md-7 col-sm-6 col-7">
+     <div class="box">1.2</div> 
+    </div>
+    <div class="col-md-3 col-sm-3 col-5">
+     <div class="box">1.3</div>
+    </div>  
+  </div>
+  
+</section>
+
+<section class="hero">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9">
+        <div class="row">
+          <div class="col-md-8 d-sm-block d-none">
+           <div class="box">2.1</div> 
+          </div>
+          <div class="col-md-4">
+            <div class="box">2.2</div>
+          </div>
+          
+        </div>
+        
+      </div>
+      <div class="col-md-3 d-md-block d-none">
+       <div class="box red">3</div>
+     </div> 
+   </div>
+  </div>
+  
+</section>
+
+<section class="body">
+  <div class="container">
+   <div class="row">
+    <div class="col-md-9">
+      <div class="row">
+        <div class="col-md-4 col-sm-9">
+         <div class="box">4.1</div> 
+        </div>
+        <div class="col-sm-3 d-md-none d-block">
+          <div class="box red">3</div> 
+        </div>
+        <div class="col-md-8 col-sm-12">
+         <div class="box">4.2</div>
+          
+        </div>
+        
+      </div>
+      
+    </div>
+    <div class="col-md-3 d-md-block d-none">
+      <div class="box five">5</div>
+      
+    </div>
+   </div>
+  </div>
+  
+</section>
+
+<section class="bar d-md-none d-sm-block d-none">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="box five">5</div>
+      </div>
+    </div>
+  </div>
+  
+</section>
+ <section class="footer">
+   <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="box">6</div>
+        
+      </div>
+    </div>
+     
+   </div>
+ </section>
+
+
+  </body>
+
+<!-- Modal -->
+  <div class="modal-body my-5">
+  <h2 class="fs-10">Lorem ipsum dolor sit, amet consectetur adipisicing.</h2>
+  <p>This <button class="btn btn-secondary" data-bs-toggle="popover" title="Popover title" data-bs-content="Popover body content is set in this attribute.">button</button> triggers a popover on click.</p>
+  <hr>
+  <h2 class="fs-5">Lorem ipsum dolor, sit amet.</h2>
+  <p><a href="#" data-bs-toggle="tooltip" title="Tooltip">This link</a> and <a href="#" data-bs-toggle="tooltip" title="Tooltip">that link</a> have tooltips on hover.</p>
+</div>
+
+<!-- Nav & tabs -->
+<ul class="nav justify-content-center my-5 border border-danger">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#">Active</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled">Disabled</a>
+  </li>
+</ul>
+
+<button class="btn btn-success my-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Enable body scrolling</button>
+
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+  <div class="offcanvas-header">
+    <h1 class="offcanvas-title" id="offcanvasScrollingLabel">Lorem ipsum dolor sit amet.</h1>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita alias maxime quae fuga corporis sit optio at mollitia dolor dignissimos.</p>
+  </div>
+</div>
+
+<nav aria-label="Page navigation example">
+  <ul class="pagination">
+    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+  </ul>
+</nav>
+
+
+<nav aria-label="page navigation example">
+  <ul class="pagination pagination-lg justify-content-center">
+    <li class="page-item active" aria-current="page">
+      <span class="page-link">1</span>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+  </ul>
+</nav>
+
+<div class="card">
+  <img src="images/Munna.jpg" class="card-img-top" alt="AshrafulMunna07">
+
+  <div class="card-body">
+    <h1 class="card-title">Lorem ipsum.</h1>
+    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus totam id laboriosam? Accusantium, eveniet natus fugit voluptatibus. Iste maxime, amet.</p>
+    <a href="https://www.facebook.com/asmunna07/" class="btn btn-primary">Visit my fb account</a>
+  </div>
+</div>
+
+<!-- placeholder -->
+
+<div class="card" aria-hidden="true">
+  <img src="images/Munna.jpg" class="card-img-top" alt="AshrafulMunna07">
+  <div class="card-body">
+    <h5 class="card-title placeholder-glow">
+      <span class="placeholder col-6"></span>
+    </h5>
+    <p class="card-text placeholder-glow">
+      <span class="placeholder col-7"></span>
+      <span class="placeholder col-4"></span>
+      <span class="placeholder col-4"></span>
+      <span class="placeholder col-6"></span>
+      <span class="placeholder col-8"></span>
+    </p>
+    <a class="btn btn-success disabled placeholder col-6"></a>
+  </div>
+</div>
+
+<!-- placeholder color -->
+<span class="placeholder col-12"></span>
+
+<span class="placeholder col-12 bg-primary"></span>
+<span class="placeholder col-12 bg-secondary"></span>
+<span class="placeholder col-12 bg-success"></span>
+<span class="placeholder col-12 bg-danger"></span>
+<span class="placeholder col-12 bg-warning"></span>
+<span class="placeholder col-12 bg-info"></span>
+<span class="placeholder col-12 bg-light"></span>
+<span class="placeholder col-12 bg-dark"></span>
+<!-- Level -->
+
+<div class="progress my-5" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress-bar" style="width: 25%">25%</div>
+</div>
+
+<div class="progress my-3" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress-bar bg-success" style="width: 25%"></div>
+</div>
+<div class="progress my-3" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress-bar bg-info" style="width: 50%"></div>
+</div>
+<div class="progress my-3" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress-bar bg-warning" style="width: 75%"></div>
+</div>
+<div class="progress my-3" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress-bar bg-danger" style="width: 100%"></div>
+</div>
+
+<!-- Scrollspy start -->
+
+<div class="row">
+  <div class="col-4">
+    <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
+      <nav class="nav nav-pills flex-column">
+        <a class="nav-link" href="#item-1">Item 1</a>
+        <nav class="nav nav-pills flex-column">
+          <a class="nav-link ms-3 my-1" href="#item-1-1">Item 1-1</a>
+          <a class="nav-link ms-3 my-1" href="#item-1-2">Item 1-2</a>
+        </nav>
+        <a class="nav-link" href="#item-2">Item 2</a>
+        <a class="nav-link" href="#item-3">Item 3</a>
+        <nav class="nav nav-pills flex-column">
+          <a class="nav-link ms-3 my-1" href="#item-3-1">Item 3-1</a>
+          <a class="nav-link ms-3 my-1" href="#item-3-2">Item 3-2</a>
+        </nav>
+      </nav>
+    </nav>
+  </div>
+
+  <div class="col-8">
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+      <div id="item-1">
+        <h4>Item 1</h4>
+        <p>...</p>
+      </div>
+      <div id="item-1-1">
+        <h5>Item 1-1</h5>
+        <p>...</p>
+      </div>
+      <div id="item-1-2">
+        <h5>Item 1-2</h5>
+        <p>...</p>
+      </div>
+      <div id="item-2">
+        <h4>Item 2</h4>
+        <p>...</p>
+      </div>
+      <div id="item-3">
+        <h4>Item 3</h4>
+        <p>...</p>
+      </div>
+      <div id="item-3-1">
+        <h5>Item 3-1</h5>
+        <p>...</p>
+      </div>
+      <div id="item-3-2">
+        <h5>Item 3-2</h5>
+        <p>...</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- scrolespy end -->
+
+<!-- spinner -->
+<div class="spinner-border text-primary" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-secondary" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-success" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-danger" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-warning" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-info" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-light" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="spinner-border text-dark" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<!-- js links -->
+   <script src="js/bootstrap.bundle.min.js"></script>
+   <script src="js/script.js"></script>
+  </body>
+</html>
